@@ -5,6 +5,13 @@
   margin: 0;
   padding: 0;
 }
+
+.navbar{
+ margin-right: 4em;
+  margin-left: 4em;
+}
+
+
 ul {
   list-style-type: none;
 }
