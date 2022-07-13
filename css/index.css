@@ -12,12 +12,12 @@ ul {
 li {
   display: inline;
   float: right;
-  margin-top: 2em;
+  margin-top: 1em;
   padding: 0.25em;
 }
 
 li a {
-  margin: 2em;
+  margin: 1em;
   font-size: 18px;
   color: #e5e7eb;
   text-decoration: none;
