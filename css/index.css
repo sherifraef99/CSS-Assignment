@@ -92,7 +92,7 @@ header {
 
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .card {
@@ -112,7 +112,9 @@ header {
   border-radius: 5px;
 }
 .first p {
-  text-align: center;
+  display:flex;
+  flex-direction:column;
+  align-item:center;
 }
 .second {
   background-color: #e5e7eb;
