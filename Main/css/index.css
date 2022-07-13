@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  float: right;
+  margin-top: 2em;
+  padding: 0.25em;
+}
+
+li a {
+  margin: 2em;
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+header {
+  background-color: #1f2937;
+}
+
+#hero {
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  justify-content: left;
+}
+#hero .info h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #f9faf8;
+}
+
+#hero .info p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+#hero .info a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #3882f6;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 0.5em 1.5em;
+  margin-top: 2rem;
+  color: white;
+}
+
+.img-header img {
+  width: 600px;
+}
+
+.first {
+  margin: 2em;
+}
+
+.first h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 1em;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  margin-bottom: 0.5em;
+}
+.box img {
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+}
+.first p {
+  text-align: center;
+}
+.second {
+  background-color: #e5e7eb;
+  padding: 1em;
+  height: 200px;
+}
+
+.second h2 {
+  font-weight: lighter;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.second p {
+  width: 200px;
+  position: relative;
+  top: 50px;
+  font-weight: 600;
+}
+
+.third .container {
+  margin: 2em auto;
+  color: white;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 0.25em;
+  display: block !important;
+}
+.third h3 {
+  margin: 1em;
+  font-size: 18px;
+}
+
+.third p {
+  margin: 1em;
+}
+.third button {
+  display: inline-block !important;
+  position: relative;
+  top: -50px;
+  left: 70vw;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 0.35em 1em;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
