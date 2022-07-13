@@ -114,7 +114,7 @@ header {
 .first p {
   display:flex;
   flex-direction:column;
-  align-item:center;
+  align-items:center;
 }
 .second {
   background-color: #e5e7eb;
